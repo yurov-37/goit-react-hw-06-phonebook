@@ -1,9 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { PhoneBtn } from './Button.styled';
+import { DeleteBtn } from './Button.styled';
 
 function Button({ children, onClick }) {
-  return <PhoneBtn onClick={onClick}>{children}</PhoneBtn>;
+  return <DeleteBtn onClick={onClick}>{children}</DeleteBtn>;
 }
 
 Button.propTypes = {
